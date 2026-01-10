@@ -1,0 +1,7 @@
+{
+  "title": "Velkommen til Bryllupet vårt",
+  "description": {
+    "part1": "For å komme i gang, rediger <1>src/App.js</1> og lagre for å laste på nytt.",
+    "part2": "Bytt språk mellom engelsk og tysk ved å bruke knappene over."
+  }
+}
