@@ -5,7 +5,7 @@ import Select, { type SelectChangeEvent } from '@mui/material/Select';
 import MenuItem from '@mui/material/MenuItem';
 
 export default function LanguageDropdown() {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const current = (i18n.language || 'en').split('-')[0];
 
   const handleChange = (e: SelectChangeEvent<string>) => {
@@ -14,7 +14,7 @@ export default function LanguageDropdown() {
 
   return (
     <FormControl variant="standard" sx={{ minWidth: 96 }}>
-      <InputLabel id="language-select-label">Språk</InputLabel>
+      <InputLabel id="language-select-label">{t('language.selectLanguage')}</InputLabel>
       <Select
         labelId="language-select-label"
         id="language-select"
@@ -24,8 +24,8 @@ export default function LanguageDropdown() {
         size="small"
         sx={{ color: 'inherit' }}
       >
-        <MenuItem value="en">English</MenuItem>
-        <MenuItem value="no">Norsk</MenuItem>
+        <MenuItem value="en">{t('language.english')}</MenuItem>
+        <MenuItem value="no">{t('language.norwegian')}</MenuItem>
       </Select>
     </FormControl>
   );

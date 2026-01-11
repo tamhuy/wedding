@@ -1,7 +1,22 @@
 {
-  "title": "Welcome to our wedding",
-  "description": {
-    "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
-    "part2": "Switch language between english and german using buttons above."
-  }
+	"banner": {
+		"title": "Welcome to our wedding",
+		"message": "Join us in celebrating our special day!"
+	},
+	"header": {
+		"home": "Home",
+		"venue": "Venue",
+		"program": "Program",
+		"ourStory": "Our Story",
+		"rsvp": "RSVP"
+	},
+	"language": {
+		"selectLanguage": "Select Language",
+		"english": "English",
+		"norwegian": "Norwegian"
+	},
+	"ourStory": {
+		"title": "Our Story",
+		"content": "From the moment we met, we knew it was meant to be..."
+	}
 }

@@ -1,9 +1,11 @@
 import { useEffect, useRef } from 'react';
 import group3 from '../assets/Group 3.avif';
+import { useTranslation } from 'react-i18next';
 
 export default function Our_story() {
   const imgRef = useRef<HTMLImageElement | null>(null);
-
+  const { t } = useTranslation();
+  
   useEffect(() => {
     const el = imgRef.current;
     if (!el) return;
@@ -23,17 +25,17 @@ export default function Our_story() {
   }, []);
 
   return (
-    <div className="py-12">
-      <h2 className="text-2xl font-bold mb-4">Our Story</h2>
+    <section id="our-story" className="py-12">
+      <h2 className="text-2xl font-bold mb-4">{t('ourStory.title')}</h2>
       <p className="mb-6 text-gray-700">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        {t('ourStory.content')}
       </p>
       <img
         ref={imgRef}
         src={group3}
-        alt="Nordre Skøyen Hovedgård"
+        alt="Our story"
         className="w-full max-w-xl mx-auto block transform -translate-x-10 opacity-0 transition-all duration-700 ease-out"
       />
-    </div>
+    </section>
   );
 }

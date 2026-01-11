@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Banner />
       <div className="max-w-7xl mx-auto p-8">
-        <Texts />
+        {/* <Texts /> */}
         <Cards />
 
         <Our_story />
