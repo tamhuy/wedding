@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -11,7 +11,7 @@ export default function ButtonAppBar() {
   const [isTop, setIsTop] = useState(true);
 
   useEffect(() => {
-    const onScroll = () => setIsTop(window.scrollY === 0);
+    const onScroll = () => setIsTop(window.scrollY < 10);
     window.addEventListener('scroll', onScroll, { passive: true });
     onScroll();
     return () => window.removeEventListener('scroll', onScroll);
@@ -40,17 +40,19 @@ export default function ButtonAppBar() {
       <AppBar
         position="fixed"
         sx={{
-          backgroundColor: isTop ? 'rgba(0,0,0,0.28)' : 'rgba(255,255,255,0.95)',
+          backgroundColor: isTop ? 'transparent' : 'rgba(255, 255, 255, 0.95)',
           color: isTop ? 'white' : 'black',
           boxShadow: isTop ? 'none' : undefined,
           backdropFilter: isTop ? 'none' : 'blur(6px)',
           transition: 'background-color 200ms, box-shadow 200ms, color 200ms',
+          pointerEvents: 'auto',
+          zIndex: (theme) => theme.zIndex.appBar,
         }}
       >
         <Toolbar sx={{ textShadow: isTop ? '0 1px 3px rgba(0,0,0,0.6)' : 'none' }}>{renderToolbarContent()}</Toolbar>
       </AppBar>
 
-      {/* Spacer to prevent content from being covered by the fixed AppBar */}
+      {/* Always reserve toolbar height to avoid layout jumps; banner will move behind when at top */}
       <Toolbar />
     </Box>
   );
