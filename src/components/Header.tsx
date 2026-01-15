@@ -30,10 +30,17 @@ export default function ButtonAppBar() {
     </>
   );
 
- const scrollToSection = (section: string) => {
-    const el = document.getElementById(section);
-    if (el) el.scrollIntoView({ behavior: 'smooth' });
-  };
+    const scrollToSection = (sectionId: string) => {
+      const el = document.getElementById(sectionId);
+      if (!el) return;
+
+      // try to get toolbar height (MUI Toolbar root class)
+      const toolbar = document.querySelector('.MuiToolbar-root') as HTMLElement | null;
+      const headerHeight = (toolbar?.clientHeight) ?? 64;
+
+      const top = el.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+      window.scrollTo({ top, behavior: 'smooth' });
+    };
 
   return (
     <Box sx={{ flexGrow: 1 }}>
@@ -50,7 +57,7 @@ export default function ButtonAppBar() {
           zIndex: (theme) => theme.zIndex.appBar,
         }}
       >
-        <Toolbar sx={{ textShadow: isTop ? '0 1px 3px rgba(0,0,0,0.6)' : 'none' }}>{renderToolbarContent()}</Toolbar>
+        <Toolbar sx={{ textShadow: isTop ? 'none' : 'none' }}>{renderToolbarContent()}</Toolbar>
       </AppBar>
 
       {/* Always reserve toolbar height to avoid layout jumps; banner will move behind when at top */}

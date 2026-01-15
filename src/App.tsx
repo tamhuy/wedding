@@ -5,6 +5,7 @@ import { Cards } from './sections/Cards'
 import { Texts } from './sections/Texts'
 import RSVP from './sections/RSVP'
 import Footer from './components/Footer'
+import Map from './components/Map'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
 
         <Our_story />
         <RSVP />
+        <Map />
 
       </div>
       <Footer />
