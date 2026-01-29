@@ -14,7 +14,7 @@ export function Banner() {
         backgroundPosition: 'center',
       }}
     >
-      <h1 className="text-5xl font-bold">{t('title')}</h1>
+      <h1 className="text-7xl font-bold text-shadow-lg/75 text-white text-shadow-black">{t('banner.title')}</h1>
       <p className="mt-2">{t('banner.message')}</p>
     </div>
   );
