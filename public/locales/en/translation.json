@@ -1,7 +1,8 @@
 {
 	"banner": {
-		"title": "Welcome to our wedding",
-		"message": "Join us in celebrating our special day!"
+		"message": "We are getting married!",
+		"title": "Linh & Tam",
+		"date": "25th of July 2026"
 	},
 	"header": {
 		"home": "Home",
@@ -17,6 +18,7 @@
 	},
 	"ourStory": {
 		"title": "Our Story",
-		"content": "From the moment we met, we knew it was meant to be..."
+		"content": "From the moment we met, we knew it was meant to be...",
+		"whatever":"asd"
 	}
 }

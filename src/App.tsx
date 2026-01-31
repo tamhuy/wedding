@@ -13,7 +13,7 @@ import Program from './sections/Program'
 function App() {
 
   return (
-    <div className="bg-[url('src/assets/white-paper-texture.webp')] bg-size-[100%_auto] bg-repeat min-h-screen relative">
+    <div className="bg-[url('src/assets/waves.png')] bg-size-[125%_auto] bg-repeat min-h-screen relative">
       {/* Overlay with primary color at 70% opacity */}
       {/* <div className="absolute inset-0 bg-primary opacity-80 pointer-events-none" /> */}
       
@@ -56,6 +56,7 @@ function App() {
             <Map />
           </div>
         </div>
+        <WaveDivider inverted={false} />
 
          {/* Map section with secondary background at opacity */}
         <div className="relative">
@@ -64,6 +65,7 @@ function App() {
             <FAQ />
           </div>
         </div>
+        <WaveDivider inverted={true} />
 
 
          {/* Map section with secondary background at opacity */}
@@ -73,6 +75,7 @@ function App() {
             <Program />
           </div>
         </div>
+        <WaveDivider inverted={false} />
         
         <Footer />
       </div>
