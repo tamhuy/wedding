@@ -1,8 +1,11 @@
+import { useTranslation } from "react-i18next";
+
 export default function Map() {
     const apiKey = import.meta.env.VITE_MAPS_API_KEY;
+    const { t } = useTranslation();
     return (
         <>
-         <h1>Location</h1>
+         <h1>{t("location.title")}</h1>
          <div className="grid grid-cols-6 gap-16">
            {/* Left column - Map */}
            <div className="col-span-3">
@@ -18,15 +21,15 @@ export default function Map() {
            
            {/* Right column - Text content (spans 2 columns) */}
            <div className="col-span-3">
-             <h2 className="text-2xl font-bold mb-4">Nordre Skøyen Hovedgård</h2>
+             <h2 className="text-2xl font-bold mb-4">{t("location.name")}</h2>
              <p className="text-gray-700 mb-4">
-               Add your location details and information here.
+               {t("location.address")}
              </p>
              <p>
-                Easy to get to, just 20 min from the city center with the metro
+                {t("location.directions")}
              </p>
              <p>
-                Parking available on site
+                {t("location.parking")}
              </p>
            </div>
          </div>
