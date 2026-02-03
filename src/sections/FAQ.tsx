@@ -1,12 +1,16 @@
+import { useTranslation } from "react-i18next";
+
 export default function FAQ() {
+    const { t } = useTranslation();
     return (
         <>
-         <h1>Practical information</h1>
-         <p>Frequently Asked Questions will be listed here.</p>
-         <p>Child free</p>
-         <p>parking</p>
-         <p>Dress code</p>
-         <p>Wishing well</p>
+         <h1>{t("practicalInfo.title")}</h1>
+         <p>{t("practicalInfo.accommodation")}</p>
+         <p>{t("practicalInfo.transportation")}</p>
+         <p>{t("practicalInfo.childFree")}</p>
+         <p>{t("practicalInfo.parking")}</p>
+         <p>{t("practicalInfo.dressCode")}</p>
+         <p>{t("practicalInfo.wishingWell")}</p>
         
         </>
     );

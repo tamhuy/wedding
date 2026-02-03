@@ -18,5 +18,37 @@
 	"ourStory": {
 		"title": "Our Story",
 		"content": "From the moment we met, we knew it was meant to be..."
+	},
+	"rsvp": {
+		"title": "RSVP",
+		"message": "Please let us know if you will be attending our wedding by 15.07.2026.",
+		"buttonLabel": "RSVP Now",
+		"yes": "Yes, I will attend",
+		"no": "No, I cannot attend",
+		"submit": "Submit"
+	},
+	"location": {
+		"title": "Venue Location",
+		"name": "Nordre Skøyen Hovedgård",
+		"address": "Peter Aas' vei 17, 0667 Oslo, Norway",
+		"mapLink": "View on Map",
+		"directions": "Easy to get to, just 20 min from the city center with the metro. Parking available on site"
+	},
+	"practicalInfo": {
+		"title": "Practical Information",
+		"accommodation": "We have reserved a block of rooms at the Grand Hotel. Please mention our wedding when booking.",
+		"transportation": "Shuttle service will be provided from the city center to the venue and back.",
+		"childFree": "Our wedding will be an adults-only event.",
+		"parking": "Parking is available at the venue for those who wish to drive.",
+		"dressCode": "Formal attire is requested.",
+		"wishingWell": "Your presence is the greatest gift we could ask for. However, if you wish to honor us with a gift, a contribution to our honeymoon fund would be greatly appreciated."
+	},
+	"program": {
+		"title": "Wedding Day Program",
+		"ceremony": "Ceremony - 15:00",
+		"cocktailHour": "Cocktail Hour - 16:00",
+		"dinner": "Dinner - 18:00",
+		"party": "Party - 20:00",
+		"farewell": "Farewell - 01:00"
 	}
 }
