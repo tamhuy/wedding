@@ -8,7 +8,7 @@ export default function Map() {
          <h1>{t("location.title")}</h1>
          <div className="grid grid-cols-6 gap-16">
            {/* Left column - Map */}
-           <div className="col-span-3">
+           <div className="col-span-3 rounded-4xl overflow-hidden shadow-lg">
              <iframe
                 width="100%"
                 height="450"
