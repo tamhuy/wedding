@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Beau+Rivage&family=Bonheur+Royale&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:wght@400..900&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -6,19 +7,33 @@
   --color-secondary: #F0e3ce;
 }
 
-/* .embla__viewport {
-  overflow: hidden;
-}
+@layer base {
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-size: var(--text-2xl);
+  }
+  h2 {
+    font-family: "EB Garamond", serif;
+    font-size: var(--text-2xl);
+  }
+  h3 {
+    font-family: "Alex Brush", cursive;
+    font-size: var(--text-2xl);
+  }
+  h4 {
+    font-family: "Bonheur Royale", cursive;
+    font-size: var(--text-2xl);
+  }
+  h5 {
+    font-family: "Beau Rivage", cursive;
+    font-size: var(--text-2xl);
+  }
 
-.embla__container {
-  display: flex;
-  touch-action: pan-y pinch-zoom;
+  p {
+    font-family: "Playfair Display", serif;
+    /*font-size: var(--text-2xl);*/
+  }
 }
-
-.embla__slide {
-  flex: 0 0 100%;
-  min-width: 0;
-} */
 
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;

@@ -6,16 +6,15 @@ export default function Map() {
     return (
         <>
          <h1>{t("location.title")}</h1>
-         <div className="grid grid-cols-6 gap-16">
+         <div className="grid lg:grid-cols-6 gap-16 grid-cols-1">
            {/* Left column - Map */}
            <div className="col-span-3 rounded-4xl overflow-hidden shadow-lg">
              <iframe
-                width="100%"
-                height="450"
+                className="w-full h-70 lg:h-96"
                 // style="border:0"
                 loading="lazy"
                 // allowFullscreen
-                src={`https://www.google.com/maps/embed/v1/place?key=${apiKey}&q=Nordre+Skøyen+Hovedgård`}>
+                src={`https://www.google.com/maps/embed/v1/place?key=${apiKey}&q=Nordre+Skøyen+Hovedgård&zoom=11`}>
              </iframe>
            </div>
            

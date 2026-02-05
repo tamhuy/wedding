@@ -1,6 +1,7 @@
 {
 	"banner": {
-		"title": "Welcome to our wedding",
+		"title": "Linh & Tam",
+		"date": "25. July 2026",
 		"message": "Join us in celebrating our special day!"
 	},
 	"header": {
@@ -21,7 +22,7 @@
 	},
 	"rsvp": {
 		"title": "RSVP",
-		"message": "Please let us know if you will be attending our wedding by 15.07.2026.",
+		"message": "Please let us know if you will be attending our wedding by 15.07.2026. Please answer the RSVP for each guest separately so that we can get the guest list and allergies right.",
 		"buttonLabel": "RSVP Now",
 		"yes": "Yes, I will attend",
 		"no": "No, I cannot attend",
@@ -45,6 +46,8 @@
 	},
 	"program": {
 		"title": "Wedding Day Program",
+		"doorsOpen": "Doors Open - 14:00",
+		"arriveBefore": "Please arrive before 14:45 to ensure you have time to find your seat and get settled before the ceremony begins.",
 		"ceremony": "Ceremony - 15:00",
 		"cocktailHour": "Cocktail Hour - 16:00",
 		"dinner": "Dinner - 18:00",

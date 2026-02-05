@@ -1,7 +1,7 @@
 import Header from './components/Header'
 import Our_story from './sections/Our_story'
 import { Banner } from './sections/Banner'
-import { Cards } from './sections/Cards'
+//import { Cards } from './sections/Cards'
 import RSVP from './sections/RSVP'
 import Footer from './components/Footer'
 import Map from './components/Map'
@@ -25,8 +25,8 @@ const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
       <div className="relative z-10">
         <Header />
         <Banner />
-        
         {/* Cards section with primary background at opacity */}
+        {/*
         <div className="relative">
           <div className="absolute inset-0 bg-primary opacity-70" />
           <div className="relative max-w-7xl mx-auto p-8">
@@ -34,7 +34,7 @@ const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
           </div>
         </div>
         <WaveDivider inverted={true} />
-        
+        */}
         {/* Our story section with secondary background at opacity */}
         <div className="relative">
           <div className="absolute inset-0 bg-secondary opacity-70" />
