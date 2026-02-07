@@ -23,9 +23,10 @@ export default function ButtonAppBar() {
         PL + QT
       </Typography>
 
-      <Button color="inherit" onClick={() => scrollToSection('venue')}>{t('header.venue')}</Button>
-      <Button color="inherit" onClick={() => scrollToSection('program')}>{t('header.program')}</Button>
       <Button color="inherit" onClick={() => scrollToSection('our-story')}>{t('header.ourStory')}</Button>
+      <Button color="inherit" onClick={() => scrollToSection('venue')}>{t('header.venue')}</Button>
+      <Button color="inherit" onClick={() => scrollToSection('faq')}>{t('header.faq')}</Button>
+      <Button color="inherit" onClick={() => scrollToSection('program')}>{t('header.program')}</Button>
       <LanguageDropdown />
     </>
   );
