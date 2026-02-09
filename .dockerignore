@@ -1,0 +1,8 @@
+node_modules
+dist
+.dockerignore
+Dockerfile
+npm-debug.log
+# other files you might want to ignore, e.g., local environment files
+.env.local
+.env.development.local
