@@ -1,8 +1,8 @@
 {
 	"banner": {
+		"message": "We are getting married!",
 		"title": "Linh & Tam",
-		"date": "25. July 2026",
-		"message": "Join us in celebrating our special day!"
+		"date": "25th of July 2026"
 	},
 	"header": {
 		"home": "Home",
@@ -29,11 +29,14 @@
 		"submit": "Submit"
 	},
 	"location": {
-		"title": "Venue Location",
+		"title": "Location",
 		"name": "Nordre Skøyen Hovedgård",
-		"address": "Peter Aas' vei 17, 0667 Oslo, Norway",
-		"mapLink": "View on Map",
-		"directions": "Easy to get to, just 20 min from the city center with the metro. Parking available on site"
+		"mapLink": "See map for directions.",
+		"description": "Both the ceremony and the reception will take place at Nordre Skøyen Hovedgård.", 
+		"reasoning": "We chose this venue for its cozy atmosphere and central location, making it easy to reach for everyone. A lush, green allé leads up to the venue, and the surroundings offer a beautiful view over the city, creating a calm and intimate setting close to the heart of Oslo.",
+		"directions": "The venue is easy to reach, just 20 minutes from the city center by public transport.",
+		"parking": "Parking is available at the venue for those who wish to drive.",
+		"address": "Peter Aas' vei 17, 0667 Oslo, Norway"
 	},
 	"practicalInfo": {
 		"title": "Practical Information",
