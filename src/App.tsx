@@ -58,32 +58,33 @@ const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
         <div className="relative">
           <div className="absolute inset-0 bg-secondary opacity-70" />
           <div className="relative max-w-7xl mx-auto p-8">
-            <Map />
+            <Program />
           </div>
         </div>
         <WaveDivider inverted={false} />
 
-         {/* Map section with secondary background at opacity */}
+
+        {/* Map section with primary background at opacity */}
         <div className="relative">
           <div className="absolute inset-0 bg-primary opacity-70" />
           <div className="relative max-w-7xl mx-auto p-8">
-            <FAQ />
+            <Map />
           </div>
         </div>
         <WaveDivider inverted={true} />
 
-
          {/* Map section with secondary background at opacity */}
         <div className="relative">
           <div className="absolute inset-0 bg-secondary opacity-70" />
           <div className="relative max-w-7xl mx-auto p-8">
-            <Program />
+            <FAQ />
           </div>
         </div>
+        <WaveDivider inverted={false} />
 
-         {/* Map section with secondary background at opacity */}
+         {/* Map section with primary background at opacity */}
         <div className="relative">
-          <div className="absolute inset-0 bg-secondary opacity-70" />
+          <div className="absolute inset-0 bg-primary opacity-70" />
           <div className="relative max-w-7xl mx-auto p-8">
             
         <ImageCarousel slides={SLIDES} options={OPTIONS} />

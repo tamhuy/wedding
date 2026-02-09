@@ -48,13 +48,21 @@
 		"wishingWell": "Your presence is the greatest gift we could ask for. However, if you wish to honor us with a gift, a contribution to our honeymoon fund would be greatly appreciated."
 	},
 	"program": {
-		"title": "Wedding Day Program",
-		"doorsOpen": "Doors Open - 14:00",
-		"arriveBefore": "Please arrive before 14:45 to ensure you have time to find your seat and get settled before the ceremony begins.",
-		"ceremony": "Ceremony - 15:00",
-		"cocktailHour": "Cocktail Hour - 16:00",
-		"dinner": "Dinner - 18:00",
-		"party": "Party - 20:00",
-		"farewell": "Farewell - 01:00"
+		"title": "Program",
+		"doorsOpen": "14:00 - Doors open",
+		"doorsOpenSub": "Snacks and aperitifs - Get to know the place & each other",
+		"arriveBefore": "Please arrive before 14:45 to ensure you have enough time to find your seat and get settled before the ceremony begins.",
+		"ceremony": "15:00 - Ceremony",
+		"ceremonySub": "We say yes! The ceremony will be phone-free & our lovely photographer will capture the moments",
+		"cocktailHour": "16:00 - Photos with the couple & cocktail hour",
+		"cocktailHourSub": "Enjoy some refreshment, mingle with other guests and take photos with us!",
+		"dinner": "17:00 - Dinner",
+		"dinnerSub": "Time to eat, drink and be merry! We will have a delicious 3-course meal accompanied by speeches.",
+		"cakeCutting": "19:30 - Cake cutting, essert and coffee",
+		"cakeCuttingSub": "Time for dessert and coffee! We will be moving into another room to cut the cake.",
+		"party": "21:30 - First Dance",
+		"partySub": "We will have our first dance and open the dance floor - let the party begin!",
+		"farewell": "01:30 - Party ends",
+		"farewellSub": "Doors closes and we hope you had a great time celebrating with us!"
 	}
 }
