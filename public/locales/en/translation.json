@@ -43,12 +43,20 @@
 	},
 	"practicalInfo": {
 		"title": "Practical Information",
-		"accommodation": "We have reserved a block of rooms at the Grand Hotel. Please mention our wedding when booking.",
-		"transportation": "Shuttle service will be provided from the city center to the venue and back.",
-		"childFree": "Our wedding will be an adults-only event.",
-		"parking": "Parking is available at the venue for those who wish to drive.",
-		"dressCode": "Formal attire is requested.",
-		"wishingWell": "Your presence is the greatest gift we could ask for. However, if you wish to honor us with a gift, a contribution to our honeymoon fund would be greatly appreciated."
+		"accommodation": "Accommodation",
+		"accommodationSub": "For guests traveling from afar, we recommend booking accommodation in Central Oslo, where there is a wide range of hotels and easy access to public transportation. The venue is well connected to the city, making it easy to stay centrally and travel to and from the celebration.",
+		"transportation": "Transportation & Parking",
+		"transportationSub": "The venue is easy to reach, just 20 minutes from the city center by public transport. Routes and travel options can be found via [Ruter](https://ruter.no). For those arriving by car, parking is available on-site.",
+		"childFree": "Child-free celebration",
+		"childFreeSub": "We’re planning a child-free celebration. We understand this may not be possible for everyone, and we truly appreciate you making the effort to celebrate this day with us 🤍",
+		"dressCode": "Dress code",
+		"dressCodeSub": "We’re going for formal attire . If you’d like to match the theme, feel free to wear shades of blue. Most importantly, dress nicely and bring good vibes 🕺✨",
+		"wishingWell": "Gift Wishes",
+		"wishingWellSub": "Your presence means the most to us, especially for those of you traveling far to be with us. 🤍 However, if you wish to honor us with a gift, a contribution to our honeymoon fund would be greatly appreciated.",
+		"contribution": "Contributions & Performances",
+		"contributionSub": "If you would like to contribute in any way, whether with dessert, a helping hand, or a small performance, we would be very happy 🤍 Please let us know in the RSVP form or by email.",
+		"weather": "Ceremony & Weather",
+		"weatherSub": "The ceremony will be held outdoors, so we hope for good weather! In case of rain, we have a backup plan to move the ceremony indoors. We will keep you updated on the weather as the date approaches."
 	},
 	"program": {
 		"title": "Program",

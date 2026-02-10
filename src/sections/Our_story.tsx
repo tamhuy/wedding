@@ -26,9 +26,7 @@ export default function Our_story() {
 
   return (
     <section id="our-story" className="py-12">
-      <h1 className="text-2xl font-bold mb-4">{t('ourStory.title')}</h1>
       <h2 className="text-2xl font-bold mb-4">{t('ourStory.title')}</h2>
-      <h4 className="text-4xl font-bold mb-4">{t('ourStory.title')}</h4>
       <p className="mb-6 text-gray-700">
         {t('ourStory.content')}
       </p>
