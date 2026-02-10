@@ -18,6 +18,8 @@ export default function Program() {
          <p>{t("program.cakeCuttingSub")}</p>
          <p>{t("program.party")}</p>
          <p>{t("program.partySub")}</p>
+         <p>{t("program.snacks")}</p>
+         <p>{t("program.snacksSub")}</p>
          <p>{t("program.farewell")}</p>
          <p>{t("program.farewellSub")}</p>
         </>

@@ -22,11 +22,14 @@
 	},
 	"rsvp": {
 		"title": "RSVP",
-		"message": "Please let us know if you will be attending our wedding by 15.07.2026. Please answer the RSVP for each guest separately so that we can get the guest list and allergies right.",
+		"appreciation": "Thank you for helping us plan this day 🤍 We can’t wait to celebrate together! ✨",
+		"deadline": "Please let us know whether you’ll be joining us by 15.04.2026.",
+		"message": "Kindly submit an RSVP for each guest individually, so we can plan seating and take any allergies into account. To send your response, you’ll need the password included in your invitation.",
 		"buttonLabel": "RSVP Now",
 		"yes": "Yes, I will attend",
 		"no": "No, I cannot attend",
-		"submit": "Submit"
+		"submit": "Send response",
+		"contact": "If you have any questions or need help with the RSVP, feel free to reach out to us at linhandtamwedding@gmail.com."
 	},
 	"location": {
 		"title": "Location",
@@ -50,19 +53,21 @@
 	"program": {
 		"title": "Program",
 		"doorsOpen": "14:00 - Doors open",
-		"doorsOpenSub": "Snacks and aperitifs - Get to know the place & each other",
+		"doorsOpenSub": "Snacks and aperitifs while getting to know the place & each other! 🍸",
 		"arriveBefore": "Please arrive before 14:45 to ensure you have enough time to find your seat and get settled before the ceremony begins.",
 		"ceremony": "15:00 - Ceremony",
-		"ceremonySub": "We say yes! The ceremony will be phone-free & our lovely photographer will capture the moments",
+		"ceremonySub": "We say yes! The ceremony will be phone-free & our lovely photographer will capture the moments. 🤍💍✨",
 		"cocktailHour": "16:00 - Photos with the couple & cocktail hour",
-		"cocktailHourSub": "Enjoy some refreshment, mingle with other guests and take photos with us!",
+		"cocktailHourSub": "Enjoy some refreshment, mingle with other guests and take photos with us! 🥂📷",
 		"dinner": "17:00 - Dinner",
-		"dinnerSub": "Time to eat, drink and be merry! We will have a delicious 3-course meal accompanied by speeches.",
+		"dinnerSub": "Time to eat & drink  in good company! We will have a 3-course meal accompanied by speeches. ✨",
 		"cakeCutting": "19:30 - Cake cutting, essert and coffee",
-		"cakeCuttingSub": "Time for dessert and coffee! We will be moving into another room to cut the cake.",
+		"cakeCuttingSub": "Time for dessert and coffee! We will be moving into another room to cut the cake. 🍰",
 		"party": "21:30 - First Dance",
-		"partySub": "We will have our first dance and open the dance floor - let the party begin!",
+		"partySub": "We will have our first dance and open the dance floor! Let the party begin! 💃🕺",
+		"snacks": "22:30 - Late-night snacks",
+		"snacksSub": "Time for some late-night snacks to keep the energy up for dancing! 🌭",
 		"farewell": "01:30 - Party ends",
-		"farewellSub": "Doors closes and we hope you had a great time celebrating with us!"
+		"farewellSub": "Doors closes and we hope you had a great time celebrating with us! 🌙🤍✨"
 	}
 }

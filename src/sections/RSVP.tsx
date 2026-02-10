@@ -7,9 +7,12 @@ export default function RSVP() {
         <>
          <h1>{t("rsvp.title")}</h1>
          <p>{t("rsvp.message")}</p>
+         <p>{t("rsvp.appreciation")}</p>
+         <p>{t("rsvp.deadline")}</p>
          <Button variant="contained" color="primary">
             {t("rsvp.buttonLabel")}
          </Button>
+         <p>{t("rsvp.contact")}</p>
         </>
     );
 }
