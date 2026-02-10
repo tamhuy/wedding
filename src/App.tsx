@@ -18,7 +18,7 @@ const SLIDE_COUNT = 5
 const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 
   return (
-    <div className="bg-[url('src/assets/waves.png')] bg-size-[125%_auto] bg-repeat min-h-screen relative">
+    <div className="bg-[url('/assets/waves.png')] bg-size-[125%_auto] bg-repeat min-h-screen relative">
       {/* Overlay with primary color at 70% opacity */}
       {/* <div className="absolute inset-0 bg-primary opacity-80 pointer-events-none" /> */}
       
