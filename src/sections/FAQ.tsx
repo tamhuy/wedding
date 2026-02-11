@@ -4,18 +4,18 @@ export default function FAQ() {
     const { t } = useTranslation();
     return (
         <>
-         <h1>{t("practicalInfo.title")}</h1>
-         <h3 className="text-xl font-bold mb-2">{t("practicalInfo.dressCode")}</h3>
+         <h2>{t("practicalInfo.title")}</h2>
+         <h3 className=" mb-2">{t("practicalInfo.dressCode")}</h3>
 				 <p className="mb-4">{t("practicalInfo.dressCodeSub")}</p>
-         <p>{t("practicalInfo.childFree")}</p>
+         <h3>{t("practicalInfo.childFree")}</h3>
          <p>{t("practicalInfo.childFreeSub")}</p>
-         <p>{t("practicalInfo.accommodation")}</p>
-				 <p>{t("practicalInfo.accommodationSub")}</p>
-         <p>{t("practicalInfo.transportation")}</p>
+         <h3>{t("practicalInfo.accommodation")}</h3>
+                <p>{t("practicalInfo.accommodationSub")}</p>
+         <h3>{t("practicalInfo.transportation")}</h3>
 				 <p>{t("practicalInfo.transportationSub")}</p>
-				 <p>{t("practicalInfo.weather")}</p>
+				 <h3>{t("practicalInfo.weather")}</h3>
 				 <p>{t("practicalInfo.weatherSub")}</p>
-         <p>{t("practicalInfo.wishingWell")}</p>
+         <h3>{t("practicalInfo.wishingWell")}</h3>
 				 <p>{t("practicalInfo.wishingWellSub")}</p>
          <p>{t("practicalInfo.contribution")}</p>
 				 <p>{t("practicalInfo.contributionSub")}</p>
