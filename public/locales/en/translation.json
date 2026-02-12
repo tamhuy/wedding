@@ -18,7 +18,11 @@
 	},
 	"ourStory": {
 		"title": "Our Story",
-		"content": "From the moment we met, we knew it was meant to be..."
+		"intro": "Every love story is different, and this is ours.",
+		"firstMeeting": "We met on valentine’s day in 2018 at the QUT welcome party for international students during our exchange semester in Australia. What started as a friendship gradually shifted as road trips, travels, and a year of shared experiences brought us closer together. It was a time filled with laughter and new adventures, and somewhere along the way, something deeper began to take shape.",
+		"longDistance": "When the exchange ended, our story stretched across borders. Long distance meant flights, countdowns, and too many airport farewells. There were ups and downs, but we stayed committed and kept choosing each other.",
+		"closerTogether": "In 2022, we finally closed the distance and began building our life together in Oslo, where our everyday life side by side truly started.",
+		"nextChapter": "Now, eight years after we first met, it feels incredibly special to gather the people who have been part of our journey and step into this next chapter as bride and groom. From exchange students to building a life together, we are so grateful for everything that brought us here and we can’t wait to celebrate with all of you."
 	},
 	"rsvp": {
 		"title": "RSVP",

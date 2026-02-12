@@ -10,7 +10,7 @@
 @layer base {
   h1 {
     font-family: "Bellefair", serif;
-    font-size: var(--text-2xl);
+    font-size: var(--text-7xl);
   }
   h2 {
     font-family: "Playfair Display", sans-serif;

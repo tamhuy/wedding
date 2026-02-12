@@ -26,10 +26,14 @@ export default function Our_story() {
 
   return (
     <section id="our-story" className="py-12">
-      <h2 className="text-2xl font-bold mb-4">{t('ourStory.title')}</h2>
-      <p className="mb-6 text-gray-700">
-        {t('ourStory.content')}
+      <h2 className="my-4">{t('ourStory.title')}</h2>
+      <p className="my-3 text-gray-700">
+        {t('ourStory.intro')}
       </p>
+      <p className="my-4">{t("ourStory.firstMeeting")}</p>
+      <p className="my-4">{t("ourStory.longDistance")}</p>
+      <p className="my-4">{t("ourStory.closerTogether")}</p>
+      <p className="my-4">{t("ourStory.nextChapter")}</p>
       <img
         ref={imgRef}
         src={group3}
