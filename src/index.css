@@ -15,6 +15,7 @@
   h2 {
     font-family: "Playfair Display", sans-serif;
     font-size: var(--text-4xl);
+    margin-bottom: 2rem;
   }
   
   h3 {
