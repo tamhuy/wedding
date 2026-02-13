@@ -8,6 +8,7 @@ import Button from '@mui/material/Button';
 import { useTranslation } from 'react-i18next';
 import { Drawer, IconButton, List, ListItem, ListItemButton, ListItemText } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 
 export default function ButtonAppBar() {
   const [isTop, setIsTop] = useState(true);
@@ -33,11 +34,8 @@ export default function ButtonAppBar() {
   }
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      {/* <Typography variant="h6" sx={{ my: 2 }}>
-        
-      </Typography>
-      <Divider /> */}
+    <Box className="" onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
+     
       <List>
         {navbarItems.map((item) => (
           <ListItem key={item.id} disablePadding>
@@ -57,7 +55,7 @@ export default function ButtonAppBar() {
       </Typography>
       <div className="hidden md:flex">
         {navbarItems.map((item) => (
-          <Button key={item.id} color="inherit" onClick={() => scrollToSection(item.id)}>
+          <Button key={item.id} sx={{margin: '0 0.5rem'}} color="inherit" onClick={() => scrollToSection(item.id)}>
             {item.label}
           </Button>
         ))}

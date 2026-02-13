@@ -26,6 +26,8 @@ export default function LanguageDropdown() {
       >
         <MenuItem value="en">{t('language.english')}</MenuItem>
         <MenuItem value="no">{t('language.norwegian')}</MenuItem>
+        <MenuItem value="vn">{t('language.vietnamese')}</MenuItem>
+        <MenuItem value="de">{t('language.german')}</MenuItem>
       </Select>
     </FormControl>
   );
