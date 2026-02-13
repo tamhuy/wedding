@@ -9,28 +9,30 @@
 
 @layer base {
   h1 {
-    font-family: "Playfair Display", serif;
-    font-size: var(--text-2xl);
+    font-family: "Bellefair", serif;
+    font-size: var(--text-7xl);
   }
   h2 {
-    font-family: "EB Garamond", serif;
-    font-size: var(--text-2xl);
+    font-family: "Playfair Display", sans-serif;
+    font-size: var(--text-4xl);
   }
+  
   h3 {
-    font-family: "Alex Brush", cursive;
-    font-size: var(--text-2xl);
+    font-family: "Alex Brush", sans-serif;
+    font-size: var(--text-3xl);
   }
   h4 {
-    font-family: "Bonheur Royale", cursive;
+    font-family: "Montserrat Light", sans-serif;
     font-size: var(--text-2xl);
   }
   h5 {
-    font-family: "Beau Rivage", cursive;
+    font-family: "Montserrat Light", sans-serif;
     font-size: var(--text-2xl);
   }
 
   p {
-    font-family: "Playfair Display", serif;
+    font-family: "Montserrat Light", sans-serif;
+    letter-spacing: 0.03rem;
     /*font-size: var(--text-2xl);*/
   }
 }

@@ -1,8 +1,8 @@
 {
 	"banner": {
-		"title": "Linh & Tam",
-		"date": "25. July 2026",
-		"message": "Join us in celebrating our special day!"
+		"message": "We are getting married!",
+		"title": "LINH & TAM",
+		"date": "25 JULY 2026"
 	},
 	"header": {
 		"home": "Home",
@@ -19,40 +19,68 @@
 	},
 	"ourStory": {
 		"title": "Our Story",
-		"content": "From the moment we met, we knew it was meant to be..."
+		"intro": "Every love story is different, and this is ours.",
+		"firstMeeting": "We met on valentine’s day in 2018 at the QUT welcome party for international students during our exchange semester in Australia. What started as a friendship gradually shifted as road trips, travels, and a year of shared experiences brought us closer together. It was a time filled with laughter and new adventures, and somewhere along the way, something deeper began to take shape.",
+		"longDistance": "When the exchange ended, our story stretched across borders. Long distance meant flights, countdowns, and too many airport farewells. There were ups and downs, but we stayed committed and kept choosing each other.",
+		"closerTogether": "In 2022, we finally closed the distance and began building our life together in Oslo, where our everyday life side by side truly started.",
+		"nextChapter": "Now, eight years after we first met, it feels incredibly special to gather the people who have been part of our journey and step into this next chapter as bride and groom. From exchange students to building a life together, we are so grateful for everything that brought us here and we can’t wait to celebrate with all of you."
 	},
 	"rsvp": {
 		"title": "RSVP",
-		"message": "Please let us know if you will be attending our wedding by 15.07.2026. Please answer the RSVP for each guest separately so that we can get the guest list and allergies right.",
+		"appreciation": "Thank you for helping us plan this day 🤍 We can’t wait to celebrate together! ✨",
+		"deadline": "Please let us know whether you’ll be joining us by 15.04.2026.",
+		"message": "Kindly submit an RSVP for each guest individually, so we can plan seating and take any allergies into account. To send your response, you’ll need the password included in your invitation.",
 		"buttonLabel": "RSVP Now",
 		"yes": "Yes, I will attend",
 		"no": "No, I cannot attend",
-		"submit": "Submit"
+		"submit": "Send response",
+		"contact": "If you have any questions or need help with the RSVP, feel free to reach out to us at linhandtamwedding@gmail.com."
 	},
 	"location": {
-		"title": "Venue Location",
-		"name": "Nordre Skøyen Hovedgård",
-		"address": "Peter Aas' vei 17, 0667 Oslo, Norway",
-		"mapLink": "View on Map",
-		"directions": "Easy to get to, just 20 min from the city center with the metro. Parking available on site"
+		"title": "Location",
+		"name": "NORDRE SKØYEN HOVEDGÅRD",
+		"mapLink": "See map for directions.",
+		"description": "Both the ceremony and the reception will take place at Nordre Skøyen Hovedgård.", 
+		"reasoning": "We chose this venue for its cozy atmosphere and central location, making it easy to reach for everyone. A lush, green allé leads up to the venue, and the surroundings offer a beautiful view over the city, creating a calm and intimate setting close to the heart of Oslo.",
+		"directions": "The venue is easy to reach, just 20 minutes from the city center by public transport.",
+		"parking": "Parking is available at the venue for those who wish to drive.",
+		"address": "Peter Aas' vei 17, 0667 Oslo, Norway"
 	},
 	"practicalInfo": {
-		"title": "Practical Information",
-		"accommodation": "We have reserved a block of rooms at the Grand Hotel. Please mention our wedding when booking.",
-		"transportation": "Shuttle service will be provided from the city center to the venue and back.",
-		"childFree": "Our wedding will be an adults-only event.",
-		"parking": "Parking is available at the venue for those who wish to drive.",
-		"dressCode": "Formal attire is requested.",
-		"wishingWell": "Your presence is the greatest gift we could ask for. However, if you wish to honor us with a gift, a contribution to our honeymoon fund would be greatly appreciated."
+		"title": "PRACTICAL INFORMATION",
+		"accommodation": "Accommodation",
+		"accommodationSub": "For guests traveling from afar, we recommend booking accommodation in Central Oslo, where there is a wide range of hotels and easy access to public transportation. The venue is well connected to the city, making it easy to stay centrally and travel to and from the celebration.",
+		"transportation": "Transportation & Parking",
+		"transportationSub": "The venue is easy to reach, just 20 minutes from the city center by public transport. Routes and travel options can be found via [Ruter](https://ruter.no). For those arriving by car, parking is available on-site.",
+		"childFree": "Child-free celebration",
+		"childFreeSub": "We’re planning a child-free celebration. We understand this may not be possible for everyone, and we truly appreciate you making the effort to celebrate this day with us 🤍",
+		"dressCode": "Dress code",
+		"dressCodeSub": "We’re going for formal attire . If you’d like to match the theme, feel free to wear shades of blue. Most importantly, dress nicely and bring good vibes 🕺✨",
+		"wishingWell": "Gift Wishes",
+		"wishingWellSub": "Your presence means the most to us, especially for those of you traveling far to be with us. 🤍 However, if you wish to honor us with a gift, a contribution to our honeymoon fund would be greatly appreciated.",
+		"contribution": "Contributions & Performances",
+		"contributionSub": "If you would like to contribute in any way, whether with dessert, a helping hand, or a small performance, we would be very happy 🤍 Please let us know in the RSVP form or by email.",
+		"weather": "Ceremony & Weather",
+		"weatherSub": "The ceremony will be held outdoors, so we hope for good weather! In case of rain, we have a backup plan to move the ceremony indoors. We will keep you updated on the weather as the date approaches."
 	},
 	"program": {
-		"title": "Wedding Day Program",
-		"doorsOpen": "Doors Open - 14:00",
-		"arriveBefore": "Please arrive before 14:45 to ensure you have time to find your seat and get settled before the ceremony begins.",
-		"ceremony": "Ceremony - 15:00",
-		"cocktailHour": "Cocktail Hour - 16:00",
-		"dinner": "Dinner - 18:00",
-		"party": "Party - 20:00",
-		"farewell": "Farewell - 01:00"
+		"title": "Program",
+		"doorsOpen": "14:00 - Doors open",
+		"doorsOpenSub": "Snacks and aperitifs while getting to know the place & each other! 🍸",
+		"arriveBefore": "Please arrive before 14:45 to ensure you have enough time to find your seat and get settled before the ceremony begins.",
+		"ceremony": "15:00 - Ceremony",
+		"ceremonySub": "We say yes! The ceremony will be phone-free & our lovely photographer will capture the moments. 🤍💍✨",
+		"cocktailHour": "16:00 - Photos with the couple & cocktail hour",
+		"cocktailHourSub": "Enjoy some refreshment, mingle with other guests and take photos with us! 🥂📷",
+		"dinner": "17:00 - Dinner",
+		"dinnerSub": "Time to eat & drink  in good company! We will have a 3-course meal accompanied by speeches. ✨",
+		"cakeCutting": "19:30 - Cake cutting, essert and coffee",
+		"cakeCuttingSub": "Time for dessert and coffee! We will be moving into another room to cut the cake. 🍰",
+		"party": "21:30 - First Dance",
+		"partySub": "We will have our first dance and open the dance floor! Let the party begin! 💃🕺",
+		"snacks": "22:30 - Late-night snacks",
+		"snacksSub": "Time for some late-night snacks to keep the energy up for dancing! 🌭",
+		"farewell": "01:30 - Party ends",
+		"farewellSub": "Doors closes and we hope you had a great time celebrating with us! 🌙🤍✨"
 	}
 }

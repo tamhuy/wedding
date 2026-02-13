@@ -20,14 +20,20 @@ export default function Map() {
            
            {/* Right column - Text content (spans 2 columns) */}
            <div className="col-span-3">
-             <h2 className="text-2xl font-bold mb-4">{t("location.name")}</h2>
-             <p className="text-gray-700 mb-4">
+             <h2 className="text-4xl tracking-normal mb-4">{t("location.name")}</h2>
+             <p className="italic text-gray-700 mb-4">
                {t("location.address")}
              </p>
-             <p>
+             <p className="mb-4">
+                {t("location.description")}
+             </p>
+             <p className="mb-4">
+                {t("location.reasoning")}
+             </p>
+             <p className="mb-4">
                 {t("location.directions")}
              </p>
-             <p>
+             <p className="mb-4">
                 {t("location.parking")}
              </p>
            </div>
