@@ -3,7 +3,7 @@ import DoorSlidingIcon from '@mui/icons-material/DoorSliding';
 export default function Program() {
     const { t } = useTranslation();
     return (
-        <>
+        <section id="program">
          <h1>{t("program.title")}</h1>
          <p><DoorSlidingIcon />{t("program.doorsOpen")}</p>
          <p>{t("program.doorsOpenSub")}</p>
@@ -22,6 +22,6 @@ export default function Program() {
          <p>{t("program.snacksSub")}</p>
          <p>{t("program.farewell")}</p>
          <p>{t("program.farewellSub")}</p>
-        </>
+        </section>
     );
 }

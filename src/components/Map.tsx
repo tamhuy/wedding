@@ -4,7 +4,7 @@ export default function Map() {
     const apiKey = import.meta.env.VITE_MAPS_API_KEY;
     const { t } = useTranslation();
     return (
-        <>
+        <section id="venue">
          <h1>{t("location.title")}</h1>
          <div className="grid lg:grid-cols-6 gap-16 grid-cols-1">
            {/* Left column - Map */}
@@ -38,6 +38,6 @@ export default function Map() {
              </p>
            </div>
          </div>
-        </>
+        </section>
     );
 }

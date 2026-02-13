@@ -6,27 +6,74 @@ import Typography from '@mui/material/Typography';
 import LanguageDropdown from './LanguageDropdown';
 import Button from '@mui/material/Button';
 import { useTranslation } from 'react-i18next';
+import { Drawer, IconButton, List, ListItem, ListItemButton, ListItemText } from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 
 export default function ButtonAppBar() {
   const [isTop, setIsTop] = useState(true);
   const { t } = useTranslation();
 
+  const [drawerOpen, setDrawerOpen] = useState(false);
   useEffect(() => {
     const onScroll = () => setIsTop(window.scrollY < 10);
     window.addEventListener('scroll', onScroll, { passive: true });
     onScroll();
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
+
+  const navbarItems = [
+    { label: t('header.ourStory'), id: 'our-story' },
+    { label: t('header.venue'), id: 'venue' },
+    { label: t('header.faq'), id: 'faq' },
+    { label: t('header.program'), id: 'program' },
+  ]
+  
+  const handleDrawerToggle = () => {
+    setDrawerOpen((prev) => !prev);
+  }
+
+  const drawer = (
+    <Box className="" onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
+     
+      <List>
+        {navbarItems.map((item) => (
+          <ListItem key={item.id} disablePadding>
+            <ListItemButton onClick={() => scrollToSection(item.id)} sx={{ textAlign: 'center' }}>
+              <ListItemText primary={item.label} />
+            </ListItemButton>
+          </ListItem>
+        ))}
+      </List>
+    </Box>
+  );
+
   const renderToolbarContent = () => (
     <>
       <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
         PL + QT
       </Typography>
-
-      <Button color="inherit" onClick={() => scrollToSection('venue')}>{t('header.venue')}</Button>
-      <Button color="inherit" onClick={() => scrollToSection('program')}>{t('header.program')}</Button>
-      <Button color="inherit" onClick={() => scrollToSection('our-story')}>{t('header.ourStory')}</Button>
-      <LanguageDropdown />
+      <div className="hidden md:flex">
+        {navbarItems.map((item) => (
+          <Button key={item.id} sx={{margin: '0 0.5rem'}} color="inherit" onClick={() => scrollToSection(item.id)}>
+            {item.label}
+          </Button>
+        ))}
+        <LanguageDropdown />
+      </div>
+      <div className="block md:hidden">
+       <IconButton
+            
+              size="large"
+              aria-label="account of current user"
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              onClick={handleDrawerToggle}
+              color="inherit"
+            >
+              <MenuIcon />
+            </IconButton>
+      </div>
     </>
   );
 
@@ -59,7 +106,24 @@ export default function ButtonAppBar() {
       >
         <Toolbar sx={{ textShadow: isTop ? 'none' : 'none' }}>{renderToolbarContent()}</Toolbar>
       </AppBar>
-
+      <nav>
+        <Drawer
+         // container={container}
+         anchor='right'
+          variant="temporary"
+          open={drawerOpen}
+          onClose={handleDrawerToggle}
+          ModalProps={{
+            keepMounted: true, // Better open performance on mobile.
+          }}
+          // sx={{
+          //   display: { xs: 'block', sm: 'none' },
+          //   '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+          // }}
+        >
+          {drawer}
+        </Drawer>
+      </nav>
       {/* Always reserve toolbar height to avoid layout jumps; banner will move behind when at top */}
       <Toolbar />
     </Box>

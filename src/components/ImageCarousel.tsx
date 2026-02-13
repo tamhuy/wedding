@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef } from 'react'
+import { useCallback, useEffect, useRef } from 'react'
 import type {
     EmblaCarouselType,
     EmblaEventListType,
@@ -92,7 +92,7 @@ const ImageCarousel = (props: PropType) => {
       .on('reinit', tweenOpacity)
       .on('scroll', tweenOpacity)
       .on('slidefocus', tweenOpacity)
-  }, [emblaApi, tweenOpacity])
+  }, [emblaApi, setTweenFactor, tweenOpacity])
 
   return (
     <div className="embla">

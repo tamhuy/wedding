@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 export default function FAQ() {
     const { t } = useTranslation();
     return (
-        <>
+        <section id="faq">
          <h2>{t("practicalInfo.title")}</h2>
          <h3 className=" mb-2">{t("practicalInfo.dressCode")}</h3>
 				 <p className="mb-4">{t("practicalInfo.dressCodeSub")}</p>
@@ -20,6 +20,6 @@ export default function FAQ() {
          <p>{t("practicalInfo.contribution")}</p>
 				 <p>{t("practicalInfo.contributionSub")}</p>
         
-        </>
+        </section>
     );
 }
