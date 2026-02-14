@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react';
-import group3 from '../assets/Group 3.avif';
-import timeline from '../assets/timeline_v2.png';
+import timeline from '../assets/timeline_v5.png';
 import { useTranslation } from 'react-i18next';
 
 export default function Our_story() {
@@ -27,7 +26,7 @@ export default function Our_story() {
 
   return (
     <section id="our-story" className="block lg:flex gap-10 py-12">
-      <div className="">
+      <div className="flex-1">
 
       <h2 className="my-4">{t('ourStory.title')}</h2>
       <p className="my-3 text-gray-700 italic">
@@ -43,7 +42,7 @@ export default function Our_story() {
         ref={imgRef}
         src={timeline}
         alt="Our story"
-        className="w-full max-w-md mx-auto block transform -translate-x-10 opacity-0 transition-all duration-700 ease-out"
+        className="h-auto max-w-md mx-auto block  lg:max-h-full lg:w-auto lg:object-contain transform -translate-x-10 opacity-0 transition-all duration-700 ease-out"
       />
     </section>
   );
