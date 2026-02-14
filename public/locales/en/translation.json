@@ -15,9 +15,9 @@
 	"language": {
 		"selectLanguage": "Select Language",
 		"english": "English",
-		"norwegian": "Norwegian",
-		"vietnamese": "vietnamese",
-		"german": "German"
+		"norwegian": "Norsk",
+		"vietnamese": "Tiếng Việt",
+		"german": "Deutsch"
 	},
 	"ourStory": {
 		"title": "Our Story",
@@ -53,7 +53,8 @@
 		"accommodation": "Accommodation",
 		"accommodationSub": "For guests traveling from afar, we recommend booking accommodation in Central Oslo, where there is a wide range of hotels and easy access to public transportation. The venue is well connected to the city, making it easy to stay centrally and travel to and from the celebration.",
 		"transportation": "Transportation & Parking",
-		"transportationSub": "The venue is easy to reach, just 20 minutes from the city center by public transport. Routes and travel options can be found via [Ruter](https://ruter.no). For those arriving by car, parking is available on-site.",
+		"transportationSub": "The venue is easy to reach, just 20 minutes from the city center by public transport. Routes and travel options can be found via ",
+		"transportationSub2": ". For those arriving by car, parking is available on-site.",
 		"childFree": "Child-free celebration",
 		"childFreeSub": "We’re planning a child-free celebration. We understand this may not be possible for everyone, and we truly appreciate you making the effort to celebrate this day with us",
 		"dressCode": "Dress code",

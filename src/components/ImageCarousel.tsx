@@ -3,7 +3,6 @@ import type {
     EmblaCarouselType,
     EmblaEventListType,
     EmblaEventModelType,
-    EmblaOptionsType
 } from 'embla-carousel'
 import useEmblaCarousel from 'embla-carousel-react'
 import {
@@ -12,19 +11,21 @@ import {
   usePrevNextButtons
 } from './ImageCarouselArrowButtons'
 
+import image1 from '../assets/carousel/1.png'
+import image2 from '../assets/carousel/2.png'
+import image4 from '../assets/carousel/4.jpg'
+import image5 from '../assets/carousel/5.jpg'
+import image6 from '../assets/carousel/6.jpg'
+
+
+const images = [image1, image2, image4, image5, image6]
 const TWEEN_FACTOR_BASE = 0.84
 
 const numberWithinRange = (number: number, min: number, max: number): number =>
   Math.min(Math.max(number, min), max)
 
-type PropType = {
-  slides: number[]
-  options?: EmblaOptionsType
-}
-
-const ImageCarousel = (props: PropType) => {
-  const { slides, options } = props
-  const [emblaRef, emblaApi] = useEmblaCarousel(options)
+const ImageCarousel = () => {
+  const [emblaRef, emblaApi] = useEmblaCarousel({loop:true})
   const tweenFactor = useRef(0)
 
   const {
@@ -98,11 +99,11 @@ const ImageCarousel = (props: PropType) => {
     <div className="embla">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
-          {slides.map((index) => (
+          {images.map((image, index) => (
             <div className="embla__slide" key={index}>
               <img
                 className="embla__slide__img"
-                src={`https://picsum.photos/600/350?v=${index}`}
+                src={image}
                 alt="Your alt text"
               />
             </div>

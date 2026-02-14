@@ -6,16 +6,12 @@ import RSVP from './sections/RSVP'
 import Footer from './components/Footer'
 import Map from './components/Map'
 
-import type { EmblaOptionsType } from 'embla-carousel'
 import WaveDivider from './components/WaveDivider'
 import FAQ from './sections/FAQ'
 import Program from './sections/Program'
 import ImageCarousel from './components/ImageCarousel'
 
 function App() {
-  const OPTIONS: EmblaOptionsType = { loop: true }
-const SLIDE_COUNT = 5
-const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 
   return (
     <div className="bg-[url('/assets/waves.png')] bg-size-[125%_auto] bg-repeat min-h-screen relative">
@@ -87,7 +83,7 @@ const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
           <div className="absolute inset-0 bg-secondary opacity-70" />
           <div className="relative max-w-7xl mx-auto p-8">
             
-        <ImageCarousel slides={SLIDES} options={OPTIONS} />
+        <ImageCarousel />
           </div>
         </div>
         <Footer />

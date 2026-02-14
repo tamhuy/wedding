@@ -14,8 +14,10 @@
   },
   "language": {
     "selectLanguage": "Velg språk",
-    "english": "Engelsk",
-    "norwegian": "Norsk"
+    "english": "English",
+    "norwegian": "Norsk",
+    "german": "Deutsch",
+    "vietnamese": "Tiếng Việt"
   },
   "ourStory": {
     "title": "Vår historie",
