@@ -9,6 +9,7 @@ export default function LanguageDropdown() {
   const current = (i18n.language || 'en').split('-')[0];
 
   const handleChange = (e: SelectChangeEvent<string>) => {
+    console.log(e.target.value)
     void i18n.changeLanguage(e.target.value as string);
   };
 
@@ -20,7 +21,7 @@ export default function LanguageDropdown() {
         id="language-select"
         value={current}
         onChange={handleChange}
-        label="Språk"
+        label={t('language.selectLanguage')}
         size="small"
         sx={{ color: 'inherit' }}
       >
@@ -32,4 +33,3 @@ export default function LanguageDropdown() {
     </FormControl>
   );
 }
-

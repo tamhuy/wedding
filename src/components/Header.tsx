@@ -53,8 +53,8 @@ export default function ButtonAppBar() {
       
       <div className="hidden lg:flex flex-1 justify-center">
         {navbarItems.map((item, index) => (
-          <div>
-          <Button key={item.id} sx={{margin: '0 0.5rem', minWidth: '100px'}} color="inherit" onClick={() => scrollToSection(item.id)}>
+          <div key={item.id}>
+          <Button sx={{margin: '0 0.5rem', minWidth: '100px'}} color="inherit" onClick={() => scrollToSection(item.id)}>
             {item.label}
           </Button>
           {index < navbarItems.length - 1 && (

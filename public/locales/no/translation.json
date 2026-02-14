@@ -1,7 +1,85 @@
 {
-  "title": "Velkommen til Bryllupet vårt",
-  "description": {
-    "part1": "For å komme i gang, rediger <1>src/App.js</1> og lagre for å laste på nytt.",
-    "part2": "Bytt språk mellom engelsk og tysk ved å bruke knappene over."
-  }
+	"banner": {
+		"message": "Vi skal gifte oss!",
+		"title": "LINH \n& \nTAM",
+		"date": "25. JULI 2026"
+	},
+	"header": {
+		"home": "Hjem",
+		"venue": "Sted",
+		"faq": "Praktisk informasjon",
+		"program": "Program",
+		"ourStory": "Vår historie",
+		"rsvp": "RSVP"
+	},
+	"language": {
+		"selectLanguage": "Velg språk",
+		"english": "Engelsk",
+		"norwegian": "Norsk"
+	},
+	"ourStory": {
+		"title": "Vår historie",
+		"intro": "Hver kjærlighetshistorie er forskjellig, og dette er vår.",
+		"firstMeeting": "Vi møttes på valentinsdagen i 2018 på QUT sin velkomstfest for internasjonale studenter under utvekslingssemesteret vårt i Australia. Det som begynte som et vennskap utviklet seg gradvis da roadtrips, reiser og et år med felles opplevelser brakte oss nærmere hverandre. Det var en tid fylt med latter og nye eventyr, og et sted underveis begynte noe dypere å ta form.",
+		"longDistance": "Da utvekslingen tok slutt, strakte historien vår seg over landegrenser. Langdistanse betydde flyreiser, nedtellinger og altfor mange flyplassfarvel. Det var opp- og nedturer, men vi holdt fast og fortsatte å velge hverandre.",
+		"closerTogether": "I 2022 lukket vi endelig avstanden og begynte å bygge livet vårt sammen i Oslo, der hverdagen vår side om side virkelig tok til.",
+		"nextChapter": "Nå, åtte år etter at vi først møttes, føles det utrolig spesielt å samle menneskene som har vært en del av reisen vår og gå inn i dette neste kapittelet som brud og brudgom. Fra utvekslingsstudenter, til å bygge et liv sammen, vi er så takknemlige for alt som brakte oss hit og vi gleder oss til å feire sammen med dere alle."
+	},
+	"rsvp": {
+		"title": "RSVP",
+		"appreciation": "Takk for at du hjelper oss med å planlegge denne dagen. Vi gleder oss til å feire sammen!",
+		"deadline": "Vennligst gi oss beskjed om du kan delta innen 15.04.2026.",
+		"message": "Vennligst send en RSVP for hver gjest individuelt, slik at vi kan planlegge bordplassering og ta hensyn til eventuelle allergier. For å sende ditt svar trenger du passordet som er inkludert i invitasjonen din.",
+		"buttonLabel": "RSVP nå",
+		"yes": "Ja, jeg deltar",
+		"no": "Nei, jeg kan dessverre ikke delta",
+		"submit": "Send svar",
+		"contact": "Hvis du har spørsmål eller trenger hjelp med RSVP, ta gjerne kontakt med oss på "
+	},
+	"location": {
+		"title": "STED",
+		"name": "NORDRE SKØYEN HOVEDGÅRD",
+		"mapLink": "Se kart for veibeskrivelse.",
+		"description": "Både seremonien og festen vil foregå på Nordre Skøyen Hovedgård.", 
+		"reasoning": "Vi valgte dette stedet for sin koselige atmosfære og sentrale beliggenhet, noe som gjør det lett å nå for alle. En frodig, grønn allé fører opp til stedet, og omgivelsene byr på en vakker utsikt over byen, noe som skaper en rolig og intim setting nær hjertet av Oslo.",
+		"directions": "Stedet er lett å nå, bare 20 minutter fra sentrum med kollektivtransport.",
+		"parking": "Parkering er tilgjengelig på stedet for de som ønsker å kjøre.",
+		"address": "Peter Aas' vei 17, 0667 Oslo, Norge"
+	},
+	"practicalInfo": {
+		"title": "PRAKTISK INFORMASJON",
+		"accommodation": "Overnatting",
+		"accommodationSub": "For gjester som reiser langveisfra anbefaler vi å booke overnatting i Oslo sentrum, hvor det finnes et bredt utvalg av hoteller og god tilgang til kollektivtransport. Stedet er godt forbundet med byen, noe som gjør det enkelt å bo sentralt og reise til og fra feiringen.",
+		"transportation": "Transport og parkering",
+		"transportationSub": "Stedet er lett å nå, bare 20 minutter fra sentrum med kollektivtransport. Ruter og reisealternativer finner du via [Ruter](https://ruter.no). For de som kommer med bil er det parkering tilgjengelig på stedet.",
+		"childFree": "Barnefri feiring",
+		"childFreeSub": "Vi planlegger en barnefri feiring. Vi forstår at dette kanskje ikke er mulig for alle, og vi setter stor pris på at dere gjør en innsats for å feire denne dagen med oss.",
+		"dressCode": "Antrekk",
+		"dressCodeSub": "Vi går for formelt antrekk. Hvis du vil matche temaet, er du velkommen til å bruke blåtoner. Det viktigste er at du kler deg pent og har med deg god stemning.",
+		"wishingWell": "Gaveønsker",
+		"wishingWellSub": "Din tilstedeværelse betyr mest for oss, spesielt for dere som reiser langt for å være med oss. Men hvis du ønsker å hedre oss med en gave, vil et bidrag til bryllupsreisen vår bli satt stor pris på.",
+		"contribution": "Bidrag og innslag",
+		"contributionSub": "Hvis du ønsker å bidra på noen måte, enten med dessert, en hjelpende hånd eller et lite innslag, blir vi veldig glade. Gi oss gjerne beskjed i RSVP-skjemaet eller på e-post.",
+		"weather": "Seremoni og vær",
+		"weatherSub": "Seremonien vil bli holdt utendørs, så vi håper på fint vær! I tilfelle regn har vi en reserveplan for å flytte seremonien innendørs. Vi holder dere oppdatert på været etter hvert som datoen nærmer seg."
+	},
+	"program": {
+		"title": "PROGRAM",
+		"doorsOpen": "14:00 - Dørene åpner",
+		"doorsOpenSub": "Snacks og aperitiff mens vi blir kjent med stedet og hverandre!\nVennligst ankom før 14:45 for å sikre at du har nok tid til å finne plassen din og sette deg før seremonien starter.",
+		"ceremony": "15:00 - Seremoni",
+		"ceremonySub": "Vi sier ja! Seremonien vil være telefonfri og vår flotte fotograf vil fange øyeblikkene.",
+		"cocktailHour": "16:00 - Foto med brudeparet og cocktailtime",
+		"cocktailHourSub": "Nyt noe forfriskende, mingle med andre gjester og ta bilder med oss!",
+		"dinner": "17:00 - Middag",
+		"dinnerSub": "Tid for å spise og drikke i godt selskap! Vi vil ha en 3-retters middag akkompagnert av taler.",
+		"cakeCutting": "19:30 - Kakekutting, dessert og kaffe",
+		"cakeCuttingSub": "Tid for dessert og kaffe! Vi flytter til et annet rom for å kutte kaken.",
+		"party": "21:30 - Brudevalsen",
+		"partySub": "Vi vil ha vår første dans og åpne dansegulvet! La festen begynne!",
+		"snacks": "22:30 - Kveldsmat",
+		"snacksSub": "Tid for litt kveldsmat for å holde energien oppe til dans!",
+		"farewell": "01:30 - Festen slutter",
+		"farewellSub": "Dørene stenger og vi håper du hadde det flott å feire sammen med oss!"
+	}
 }
