@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import timeline from '../assets/timeline_v5.png';
+import timeline from '../assets/timeline_v6.png';
 import { useTranslation } from 'react-i18next';
 
 export default function Our_story() {
