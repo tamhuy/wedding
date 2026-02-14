@@ -23,7 +23,7 @@ export default function FAQ() {
     return (
         <section id="faq">
          <h2>{t("practicalInfo.title")}</h2>
-            <div className="block md:flex gap-20">
+            <div className="block lg:flex gap-20">
 
                 <div>
                     <FaqSubSection title={t("practicalInfo.dressCode")} text={t("practicalInfo.dressCodeSub")} />
@@ -39,8 +39,8 @@ export default function FAQ() {
                     <FaqSubSection title={t("practicalInfo.wishingWell")} text={t("practicalInfo.wishingWellSub")} />
                     <FaqSubSection title={t("practicalInfo.contribution")} text={t("practicalInfo.contributionSub")} />
                 </div>
-                <div className="flex justify-center md:block">
-                    <video className="rounded-lg" width="350" height="240" autoPlay loop muted>
+                <div className="flex justify-center md:flex-shrink-0 items-center">
+                    <video className="rounded-lg w-96" width="350" height="240" autoPlay loop muted>
                         <source src="/assets/video.mp4" type="video/mp4" />
                     </video>
                 </div>
