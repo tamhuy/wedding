@@ -39,9 +39,11 @@ export default function FAQ() {
                     <FaqSubSection title={t("practicalInfo.wishingWell")} text={t("practicalInfo.wishingWellSub")} />
                     <FaqSubSection title={t("practicalInfo.contribution")} text={t("practicalInfo.contributionSub")} />
                 </div>
-                <video className="rounded-lg " width="350" height="240" autoPlay loop muted>
-                    <source src="/assets/video.mp4" type="video/mp4" />
-                </video>
+                <div className="flex justify-center md:block">
+                    <video className="rounded-lg" width="350" height="240" autoPlay loop muted>
+                        <source src="/assets/video.mp4" type="video/mp4" />
+                    </video>
+                </div>
             </div>
         </section>
     );

@@ -42,7 +42,7 @@ export default function Our_story() {
         ref={imgRef}
         src={timeline}
         alt="Our story"
-        className="h-auto max-w-sm md:max-w-md mx-auto block  lg:max-h-full lg:w-auto lg:object-contain transform -translate-x-10 opacity-0 transition-all duration-700 ease-out"
+        className="w-full max-w-sm md:max-w-md mx-auto block  lg:max-h-full lg:w-auto lg:object-contain transform -translate-x-10 opacity-0 transition-all duration-700 ease-out"
       />
     </section>
   );
