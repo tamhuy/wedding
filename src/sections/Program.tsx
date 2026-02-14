@@ -8,6 +8,8 @@ import CakeOutlinedIcon from '@mui/icons-material/CakeOutlined';
 import CelebrationOutlinedIcon from '@mui/icons-material/CelebrationOutlined';
 import SoupKitchenOutlinedIcon from '@mui/icons-material/SoupKitchenOutlined';
 import WavingHandOutlinedIcon from '@mui/icons-material/WavingHandOutlined';
+
+
 type ProgramSubSectionProps = {
     title: string,
     text: string,

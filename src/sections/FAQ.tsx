@@ -1,24 +1,35 @@
 import { useTranslation } from "react-i18next";
 
+type FaqSubSectionProps = {
+    title: string,
+    text: string,
+}
+
+
+function FaqSubSection({title, text}: FaqSubSectionProps) {
+   return (
+      <div className="my-6">
+        <div>
+            <h3>{title}</h3>
+            <p className="whitespace-pre-line">{text}</p>
+        </div>
+    </div>
+   )
+}
+
+
 export default function FAQ() {
     const { t } = useTranslation();
     return (
         <section id="faq">
          <h2>{t("practicalInfo.title")}</h2>
-         <h3 className=" mb-2">{t("practicalInfo.dressCode")}</h3>
-				 <p className="mb-4">{t("practicalInfo.dressCodeSub")}</p>
-         <h3>{t("practicalInfo.childFree")}</h3>
-         <p>{t("practicalInfo.childFreeSub")}</p>
-         <h3>{t("practicalInfo.accommodation")}</h3>
-                <p>{t("practicalInfo.accommodationSub")}</p>
-         <h3>{t("practicalInfo.transportation")}</h3>
-				 <p>{t("practicalInfo.transportationSub")}</p>
-				 <h3>{t("practicalInfo.weather")}</h3>
-				 <p>{t("practicalInfo.weatherSub")}</p>
-         <h3>{t("practicalInfo.wishingWell")}</h3>
-				 <p>{t("practicalInfo.wishingWellSub")}</p>
-         <p>{t("practicalInfo.contribution")}</p>
-				 <p>{t("practicalInfo.contributionSub")}</p>
+            <FaqSubSection title={t("practicalInfo.dressCode")} text={t("practicalInfo.dressCodeSub")} />
+            <FaqSubSection title={t("practicalInfo.childFree")} text={t("practicalInfo.childFreeSub")} />
+            <FaqSubSection title={t("practicalInfo.accommodation")} text={t("practicalInfo.accommodationSub")} />
+            <FaqSubSection title={t("practicalInfo.transportation")} text={t("practicalInfo.transportationSub")} />
+            <FaqSubSection title={t("practicalInfo.weather")} text={t("practicalInfo.weatherSub")} />
+            <FaqSubSection title={t("practicalInfo.wishingWell")} text={t("practicalInfo.wishingWellSub")} />
+            <FaqSubSection title={t("practicalInfo.contribution")} text={t("practicalInfo.contributionSub")} />
         
         </section>
     );
