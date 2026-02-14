@@ -65,7 +65,7 @@ export default function ButtonAppBar() {
         
       </div>
       <div className="flex items-center absolute right-0 mr-4">
-        {/* <Button className="!bg-secondary/70 hover:!bg-secondary/50 " sx={{margin: '0 1.5rem'}} variant="contained" onClick={() => scrollToSection('rsvp')}>{t('header.rsvp')}</Button> */}
+        <Button className="block md:!hidden !bg-primary/70 hover:!bg-primary/50 " sx={{margin: '0 1.5rem'}} variant="contained" onClick={() => scrollToSection('rsvp')}>{t('header.rsvp')}</Button>
         <LanguageDropdown />
         <div className="block lg:hidden">
           <IconButton
