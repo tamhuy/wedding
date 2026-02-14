@@ -32,7 +32,7 @@ export default function FAQ() {
                     <div className="my-6">
                         <div>
                             <h3>{t("practicalInfo.transportation")}</h3>
-                            <p className="whitespace-pre-line">{t("practicalInfo.transportationSub")} <a className="underline" href="ruter.no" >Ruter.no</a>{t("practicalInfo.transportationSub2")}</p>
+                            <p className="whitespace-pre-line">{t("practicalInfo.transportationSub")} <a className="underline" href="https://www.ruter.no" >Ruter.no</a>{t("practicalInfo.transportationSub2")}</p>
                         </div>
                     </div>
                     <FaqSubSection title={t("practicalInfo.weather")} text={t("practicalInfo.weatherSub")} />
