@@ -5,7 +5,7 @@ import LaunchIcon from '@mui/icons-material/Launch';
 export default function RSVP() {
     const { t } = useTranslation();
     return (
-        <div>
+        <section id="rsvp">
          <h2>{t("rsvp.title")}</h2>
          <p className="my-4">{t("rsvp.message")}</p>
          <p className="my-4">{t("rsvp.appreciation")}</p>
@@ -14,6 +14,6 @@ export default function RSVP() {
             {t("rsvp.buttonLabel")}
          </Button>
          <p className="my-4">{t("rsvp.contact")}</p>
-        </div>
+        </section>
     );
 }

@@ -24,9 +24,9 @@ export default function ButtonAppBar() {
 
   const navbarItems = [
     { label: t('header.ourStory'), id: 'our-story' },
+    { label: t('header.program'), id: 'program' },
     { label: t('header.venue'), id: 'venue' },
     { label: t('header.faq'), id: 'faq' },
-    { label: t('header.program'), id: 'program' },
   ]
   
   const handleDrawerToggle = () => {
@@ -53,15 +53,17 @@ export default function ButtonAppBar() {
       <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
         PL + QT
       </Typography>
-      <div className="hidden md:flex">
+      <div className="hidden lg:flex">
         {navbarItems.map((item) => (
           <Button key={item.id} sx={{margin: '0 0.5rem'}} color="inherit" onClick={() => scrollToSection(item.id)}>
             {item.label}
           </Button>
         ))}
-        <LanguageDropdown />
+        
       </div>
-      <div className="block md:hidden">
+        <Button sx={{margin: '0 1.5rem'}} variant="outlined" color='primary' onClick={() => scrollToSection('rsvp')}>{t('header.rsvp')}</Button>
+        <LanguageDropdown />
+      <div className="block lg:hidden">
        <IconButton
             
               size="large"
