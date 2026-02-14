@@ -53,8 +53,8 @@ export default function ButtonAppBar() {
       
       <div className="hidden lg:flex flex-1 justify-center">
         {navbarItems.map((item, index) => (
-          <div>
-          <Button key={item.id} sx={{margin: '0 0.5rem', minWidth: '100px'}} color="inherit" onClick={() => scrollToSection(item.id)}>
+          <div key={item.id}>
+          <Button sx={{margin: '0 0.5rem', minWidth: '100px'}} color="inherit" onClick={() => scrollToSection(item.id)}>
             {item.label}
           </Button>
           {index < navbarItems.length - 1 && (
@@ -65,7 +65,7 @@ export default function ButtonAppBar() {
         
       </div>
       <div className="flex items-center absolute right-0 mr-4">
-        {/* <Button className="!bg-secondary/70 hover:!bg-secondary/50 " sx={{margin: '0 1.5rem'}} variant="contained" onClick={() => scrollToSection('rsvp')}>{t('header.rsvp')}</Button> */}
+        <Button className="block md:!hidden !bg-primary/70 hover:!bg-primary/50 " sx={{margin: '0 1.5rem'}} variant="contained" onClick={() => scrollToSection('rsvp')}>{t('header.rsvp')}</Button>
         <LanguageDropdown />
         <div className="block lg:hidden">
           <IconButton
