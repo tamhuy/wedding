@@ -26,10 +26,10 @@ export default function Our_story() {
 
   return (
     <section id="our-story" className="block lg:flex gap-10 py-12">
-      <div className="flex-1">
+      <div className="flex-1 text-white">
 
       <h2 className="my-4">{t('ourStory.title')}</h2>
-      <p className="my-3 text-gray-700 italic">
+      <p className="my-3 italic">
         {t('ourStory.intro')}
       </p>
       <p className="my-4">{t("ourStory.firstMeeting")}</p>
