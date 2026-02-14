@@ -10,7 +10,7 @@ export default function RSVP() {
          <p className="my-4">{t("rsvp.message")}</p>
          <p className="my-4">{t("rsvp.appreciation")}</p>
          <p className="my-4">{t("rsvp.deadline")}</p>
-         <Button className="" variant="contained" target="_blank" color="primary" href="https://forms.google.com" endIcon={<LaunchIcon />}>
+         <Button className="!bg-secondary/70 hover:!bg-secondary/50 !text-black " size="large" variant="contained" target="_blank" href="https://forms.google.com" endIcon={<LaunchIcon />}>
             {t("rsvp.buttonLabel")}
          </Button>
          <p className="my-4">{t("rsvp.contact")} <a className="underline" href="mailto:linhandtamwedding@gmail.com">linhandtamwedding@gmail.com</a></p>

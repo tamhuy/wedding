@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
 import LanguageDropdown from './LanguageDropdown';
 import Button from '@mui/material/Button';
 import { useTranslation } from 'react-i18next';
@@ -27,6 +26,7 @@ export default function ButtonAppBar() {
     { label: t('header.program'), id: 'program' },
     { label: t('header.venue'), id: 'venue' },
     { label: t('header.faq'), id: 'faq' },
+    { label: t('header.rsvp'), id: 'rsvp' },
   ]
   
   const handleDrawerToggle = () => {
@@ -50,31 +50,36 @@ export default function ButtonAppBar() {
 
   const renderToolbarContent = () => (
     <>
-      <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-        PL + QT
-      </Typography>
-      <div className="hidden lg:flex">
-        {navbarItems.map((item) => (
-          <Button key={item.id} sx={{margin: '0 0.5rem'}} color="inherit" onClick={() => scrollToSection(item.id)}>
+      
+      <div className="hidden lg:flex flex-1 justify-center">
+        {navbarItems.map((item, index) => (
+          <div>
+          <Button key={item.id} sx={{margin: '0 0.5rem', minWidth: '100px'}} color="inherit" onClick={() => scrollToSection(item.id)}>
             {item.label}
           </Button>
+          {index < navbarItems.length - 1 && (
+        <span className="text-gray-400">|</span>
+      )}
+      </div>
         ))}
         
       </div>
-        <Button sx={{margin: '0 1.5rem'}} variant="outlined" color='primary' onClick={() => scrollToSection('rsvp')}>{t('header.rsvp')}</Button>
+      <div className="flex items-center absolute right-0 mr-4">
+        {/* <Button className="!bg-secondary/70 hover:!bg-secondary/50 " sx={{margin: '0 1.5rem'}} variant="contained" onClick={() => scrollToSection('rsvp')}>{t('header.rsvp')}</Button> */}
         <LanguageDropdown />
-      <div className="block lg:hidden">
-       <IconButton
+        <div className="block lg:hidden">
+          <IconButton
             
-              size="large"
-              aria-label="account of current user"
-              aria-controls="menu-appbar"
-              aria-haspopup="true"
-              onClick={handleDrawerToggle}
-              color="inherit"
-            >
-              <MenuIcon />
-            </IconButton>
+                size="large"
+                aria-label="account of current user"
+                aria-controls="menu-appbar"
+                aria-haspopup="true"
+                onClick={handleDrawerToggle}
+                color="inherit"
+              >
+                <MenuIcon />
+              </IconButton>
+        </div>
       </div>
     </>
   );
