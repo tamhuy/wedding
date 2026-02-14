@@ -15,8 +15,7 @@ export function Banner() {
       }}
     >
       <h1 className="tracking-wider m-8 text-shadow-lg/75 text-white text-shadow-black">{t('banner.title')}</h1>
-      <h1 className="text-5xl tracking-wider m-4 text-shadow-lg/75 text-white text-shadow-black">{t('banner.date')}</h1  >
-      <p className="mt-2">{t('banner.message')}</p>
+      <h1 className="text-5xl tracking-wider m-4 text-shadow-lg/75 text-white text-shadow-black">{t('banner.date')}</h1>
     </div>
   );
 }
