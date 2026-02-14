@@ -67,7 +67,7 @@ const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
          {/* Map section with secondary background at opacity */}
         <div className="relative">
           <div className="absolute inset-0 bg-secondary opacity-70" />
-          <div className="relative max-w-6xl mx-auto p-8 ">
+          <div className="relative max-w-7xl mx-auto p-8 ">
             <FAQ />
           </div>
         </div>
