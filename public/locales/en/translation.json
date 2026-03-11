@@ -1,11 +1,9 @@
 {
 	"banner": {
-		"message": "We are getting married!",
 		"title": "LINH \n& \nTAM",
 		"date": "25 JULY 2026"
 	},
 	"header": {
-		"home": "Home",
 		"venue": "Location",
 		"faq": "Practical information",
 		"program": "Program",
@@ -33,9 +31,6 @@
 		"deadline": "Please let us know whether you will be joining us by 15.04.2026.",
 		"message": "Kindly submit an RSVP for each guest individually, so we can plan seating and take any allergies into account. To send your response, you’ll need the password included in your invitation.",
 		"buttonLabel": "RSVP Now",
-		"yes": "Yes, I will attend",
-		"no": "No, I cannot attend",
-		"submit": "Send response",
 		"contact": "If you have any questions or need help with the RSVP, feel free to reach out to us at "
 	},
 	"location": {

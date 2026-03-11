@@ -1,88 +1,82 @@
 {
 	"banner": {
-		"message": "Wir heiraten!",
 		"title": "LINH \n& \nTAM",
 		"date": "25. JULI 2026"
 	},
 	"header": {
-		"home": "Startseite",
-		"venue": "Location",
+		"venue": "Veranstaltungsort",
 		"faq": "Praktische Informationen",
 		"program": "Programm",
-		"ourStory": "Unsere Geschichte",
+		"ourStory": "Unsere Story",
 		"rsvp": "RSVP"
 	},
 	"language": {
-		 "selectLanguage": "Sprache wählen",
+		 "selectLanguage": "Sprache auswählen",
 		"english": "English",
 		"norwegian": "Norsk",
 		"german": "Deutsch",
 		"vietnamese": "Tiếng Việt"
 	},
 	"ourStory": {
-		"title": "Unsere Geschichte",
+		"title": "Unsere Story",
 		"intro": "Jede Liebesgeschichte ist anders, und dies ist unsere.",
-		"firstMeeting": "Wir haben uns am Valentinstag 2018 auf der QUT-Willkommensparty für internationale Studierende während unseres Austauschsemesters in Australien kennengelernt. Was als Freundschaft begann, entwickelte sich allmählich weiter, als Roadtrips, Reisen und ein Jahr gemeinsamer Erlebnisse uns näher zusammenbrachten. Es war eine Zeit voller Lachen und neuer Abenteuer, und irgendwann begann sich etwas Tieferes zu entwickeln.",
-		"longDistance": "Als der Austausch endete, erstreckte sich unsere Geschichte über Grenzen hinweg. Die Fernbeziehung bedeutete Flüge, Countdown-Zeiten und zu viele Abschiede am Flughafen. Es gab Höhen und Tiefen, aber wir blieben engagiert und wählten immer wieder einander.",
-		"closerTogether": "Im Jahr 2022 haben wir schließlich die Distanz überwunden und begannen, unser Leben gemeinsam in Oslo aufzubauen, wo unser Alltag Seite an Seite wirklich begann.",
-		"nextChapter": "Jetzt, acht Jahre nachdem wir uns das erste Mal getroffen haben, ist es unglaublich besonders, die Menschen zu versammeln, die Teil unserer Reise waren, und dieses nächste Kapitel als Braut und Bräutigam zu beginnen. Von Austauschstudierenden bis hin zum Aufbau eines gemeinsamen Lebens – wir sind so dankbar für alles, was uns hierher gebracht hat, und können es kaum erwarten, mit euch allen zu feiern."
+		"firstMeeting": "Wir haben uns während unseres Austauschsemesters in Australien kennengelernt. Unsere Wege haben sich 2018 am Valentinstag auf der QUT-Willkommensparty für internationale Studierende gekreuzt. Was als Freundschaft begann, entwickelte sich allmählich weiter, als Roadtrips, Reisen und ein Jahr gemeinsamer Erlebnisse uns näher zusammenbrachten. Es war eine Zeit voller Lachen und neuer Abenteuer, und irgendwann begann sich etwas Tieferes zu entwickeln.",
+		"longDistance": "Als der Austausch endete, erstreckte sich unsere Story über Grenzen hinweg. Die Fernbeziehung brachte lange Wartezeiten zwischen den Wiedersehen, viele Flüge und zu viele Abschiede am Flughafen mit sich. Es gab Höhen und Tiefen, doch immer wieder entschieden wir uns füreinander.",
+		"closerTogether": "Im Jahr 2022 überwanden wir schließlich die Distanz und bauten unser Leben gemeinsam in Oslo auf, wo unser Alltag Seite an Seite Einzug hielt.",
+		"nextChapter": "Jetzt, acht Jahre nachdem wir uns das erste Mal getroffen haben, ist es unglaublich besonders, die Menschen zu versammeln, die Teil unserer Reise waren, und dieses neue Kapitel als Braut und Bräutigam zu beginnen. Von den Austauschstudierenden bis zum Aufbau unseres gemeinsamen Lebens sind wir dankbar für alles, was uns hierher geführt hat, und freuen uns darauf, mit euch allen zu feiern."
 	},
 	"rsvp": {
 		"title": "RSVP",
-		"appreciation": "Vielen Dank, dass ihr uns helft, diesen Tag zu planen. Wir freuen uns darauf, gemeinsam zu feiern!",
+		"appreciation": "Vielen Dank, dass ihr uns helft, diesen Tag zu planen. Wir freuen uns darauf, gemeinsam mit euch zu feiern!",
 		"deadline": "Bitte teilt uns bis zum 15.04.2026 mit, ob ihr dabei seid.",
 		"message": "Bitte reicht für jeden Gast einzeln ein RSVP ein, damit wir Sitzplätze planen und eventuelle Allergien berücksichtigen können. Um eure Antwort zu senden, benötigt ihr das Passwort, das in eurer Einladung enthalten ist.",
 		"buttonLabel": "Jetzt RSVP",
-		"yes": "Ja, ich werde teilnehmen",
-		"no": "Nein, ich kann nicht teilnehmen",
-		"submit": "Antwort senden",
 		"contact": "Wenn ihr Fragen habt oder Hilfe beim RSVP benötigt, könnt ihr uns gerne kontaktieren unter "
 	},
 	"location": {
-		"title": "LOCATION",
+		"title": "Veranstaltungsort",
 		"name": "NORDRE SKØYEN HOVEDGÅRD",
-		"mapLink": "Karte ansehen für Anfahrt.",
-		"description": "Sowohl die Zeremonie als auch die Feier finden in der Nordre Skøyen Hovedgård statt.", 
-		"reasoning": "Wir haben diesen Veranstaltungsort wegen seiner gemütlichen Atmosphäre und zentralen Lage gewählt, sodass er für alle leicht erreichbar ist. Eine üppige, grüne Allee führt zum Gebäude, und die Umgebung bietet einen schönen Blick über die Stadt und schafft ein ruhiges, intimes Ambiente nahe dem Herzen von Oslo.",
-		"directions": "Der Veranstaltungsort ist leicht zu erreichen, nur 20 Minuten vom Stadtzentrum mit öffentlichen Verkehrsmitteln.",
-		"parking": "Parkplätze sind vor Ort für diejenigen verfügbar, die mit dem Auto kommen möchten.",
+		"description": "Sowohl die Trauung als auch die Feier finden in der Nordre Skøyen Hovedgård statt.", 
+		"reasoning": "Wir haben diesen Veranstaltungsort wegen seiner gemütlichen Atmosphäre und zentralen Lage gewählt, sodass er für alle leicht erreichbar ist. Die Umgebung mit einer idyllischen, grünen Allee, die zum Gebäude führt, bietet einen herrlichen Blick über die Stadt und schafft ein ruhiges, intimes Ambiente im Herzen von Oslo.",
+		"directions": "Der Veranstaltungsort ist bequem zu erreichen und liegt nur 20 Minuten mit öffentlichen Verkehrsmitteln vom Stadtzentrum entfernt.",
+		"parking": "Parkplätze sind vor Ort für alle verfügbar, die mit dem Auto anreisen.",
 		"address": "Peter Aas' vei 17, 0667 Oslo, Norwegen"
 	},
 	"practicalInfo": {
 		"title": "PRAKTISCHE INFORMATIONEN",
 		"accommodation": "Unterkunft",
-		"accommodationSub": "Für Gäste, die von weit her reisen, empfehlen wir eine Unterkunft im Zentrum von Oslo, wo es eine große Auswahl an Hotels und gute Anbindung an öffentliche Verkehrsmittel gibt. Der Veranstaltungsort ist gut mit der Stadt verbunden, sodass ein zentraler Aufenthalt und die An- und Abreise zur Feier einfach möglich sind.",
+		"accommodationSub": "Für Gäste, die von weit her reisen, empfehlen wir eine Unterkunft im Zentrum von Oslo, wo es eine große Auswahl an Hotels und gute Anbindung an öffentliche Verkehrsmittel gibt.",
 		"transportation": "Transport & Parken",
-		"transportationSub": "Der Veranstaltungsort ist leicht zu erreichen, nur 20 Minuten vom Stadtzentrum mit öffentlichen Verkehrsmitteln. Routen und Reisemöglichkeiten findet ihr über ",
+		"transportationSub": "Der Veranstaltungsort ist gut von der Innenstadt zu erreichen, sodass ein zentraler Aufenthalt und die An- und Abreise zur Feier einfach möglich sind. Nordre Skøyen Hovedgård liegt nur 20 Minuten vom Stadtzentrum mit öffentlichen Verkehrsmitteln entfernt. Routen und Reisemöglichkeiten findet ihr über ",
 		"transportationSub2": ". Für diejenigen, die mit dem Auto anreisen, stehen Parkplätze vor Ort zur Verfügung.",
 		"childFree": "Kinderfreie Feier",
 		"childFreeSub": "Wir planen eine kinderfreie Feier. Wir verstehen, dass dies nicht für alle möglich ist, und schätzen es sehr, dass ihr den Aufwand macht, diesen Tag mit uns zu feiern.",
 		"dressCode": "Dresscode",
-		"dressCodeSub": "Wir wünschen uns formelle Kleidung. Wenn ihr zum Thema passend kommen möchtet, tragt gerne Blautöne. Am wichtigsten ist, dass ihr euch schick anzieht und gute Laune mitbringt.",
+		"dressCodeSub": "Wir wünschen uns formelle Kleidung. Wenn ihr zum Thema passend kommen möchtet, tragt gerne sommerliche Blautöne. Am wichtigsten ist, dass ihr euch schick anzieht, euch wohl fühlt und gute Laune mitbringt.",
 		"wishingWell": "Geschenkideen",
-		"wishingWellSub": "Eure Anwesenheit bedeutet uns am meisten, besonders für diejenigen, die von weit her reisen, um bei uns zu sein. Wenn ihr uns jedoch mit einem Geschenk ehren möchtet, würden wir uns über einen Beitrag zu unserem Flitterwochen-Fonds sehr freuen.",
+		"wishingWellSub": "Eure Anwesenheit bedeutet uns am meisten, besonders für diejenigen, die von weit her reisen, um bei uns zu sein. Wenn ihr uns jedoch mit einem Geschenk ehren möchtet, würden wir uns über einen Beitrag zu unserem Flitterwochen sehr freuen.",
 		"contribution": "Beiträge & Auftritte",
 		"contributionSub": "Wenn ihr auf irgendeine Weise beitragen möchtet, sei es mit einem Dessert, einer helfenden Hand oder einer kleinen Darbietung, würden wir uns sehr freuen. Bitte lasst es uns im RSVP-Formular oder per E-Mail wissen.",
-		"weather": "Zeremonie & Wetter",
-		"weatherSub": "Die Zeremonie findet im Freien statt, daher hoffen wir auf gutes Wetter! Bei Regen haben wir einen Plan B, um die Zeremonie drinnen abzuhalten. Wir halten euch über das Wetter auf dem Laufenden, je näher das Datum rückt."
+		"weather": "Trauung & Wetter",
+		"weatherSub": "Die Trauung findet im Freien statt, daher hoffen wir auf gutes Wetter! Bei Regen haben wir einen Plan B, um die Trauung drinnen abzuhalten. Wir halten euch über das Wetter auf dem Laufenden, je näher das Datum rückt."
 	},
 	"program": {
 		"title": "PROGRAMM",
 		"doorsOpen": "14:00 - Türen öffnen",
-		"doorsOpenSub": "Snacks und Aperitifs, während ihr den Ort und einander kennenlernen könnt!\nBitte kommt vor 14:45, um genug Zeit zu haben, euren Platz zu finden und euch vor der Zeremonie einzurichten.",
-		"ceremony": "15:00 - Zeremonie",
-		"ceremonySub": "Wir sagen Ja! Die Zeremonie ist handysfrei & unsere wunderbare Fotografin hält die Momente fest.",
+		"doorsOpenSub": "Snacks und Aperitifs, während ihr den Ort und die anderen kennenlernen könnt!\nBitte kommt vor 14:45, um genug Zeit vor der Trauung zu haben und euren Platz zu finden.",
+		"ceremony": "15:00 - Trauung",
+		"ceremonySub": "Wir sagen Ja! Unsere Fotografin hält die wichtigsten Momente fest. Wir bitten euch daher die Handys während der Trauung wegzulegen, damit ihr den Moment voll und ganz genießen könnt.",
 		"cocktailHour": "16:00 - Fotos mit dem Paar & Cocktailstunde",
-		"cocktailHourSub": "Genießt etwas Erfrischung, unterhaltet euch mit anderen Gästen und macht Fotos mit uns!",
+		"cocktailHourSub": "Genießt etwas zu trinken, lernt andere Gäste kennen und macht Fotos mit uns!",
 		"dinner": "17:00 - Abendessen",
-		"dinnerSub": "Zeit zu essen & zu trinken in guter Gesellschaft! Wir haben ein 3-Gänge-Menü mit begleitenden Reden.",
+		"dinnerSub": "Zeit zu essen und zu trinken! Wir servieren ein 3-Gänge-Menü, begleitet von Reden.",
 		"cakeCutting": "19:30 - Anschneiden der Torte, Dessert und Kaffee",
 		"cakeCuttingSub": "Zeit für Dessert und Kaffee! Wir wechseln in einen anderen Raum, um die Torte anzuschneiden.",
-		"party": "21:30 - Erster Tanz",
-		"partySub": "Wir haben unseren ersten Tanz und öffnen die Tanzfläche! Lasst die Party beginnen!",
+		"party": "21:30 - First Dance & Party",
+		"partySub": "Mit unserem ertsen Tanz als Ehepaar eröffnen wir die Tanzfläche! Lasst die Party beginnen!",
 		"snacks": "22:30 - Mitternachtssnacks",
 		"snacksSub": "Zeit für Mitternachtssnacks, um die Energie fürs Tanzen hochzuhalten!",
-		"farewell": "01:30 - Feier endet",
-		"farewellSub": "Die Türen schließen und wir hoffen, ihr hattet eine tolle Zeit beim Feiern mit uns!"
+		"farewell": "01:30 - Ende der Feier",
+		"farewellSub": "Die Türen schließen, aber die Erinnerungen bleiben! Wir hoffen, ihr hattet eine großartige Zeit mit uns!"
 	}
 }
