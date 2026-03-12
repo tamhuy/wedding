@@ -10,7 +10,7 @@ export default function Map() {
            {/* Left column - Map */}
            <div className="col-span-3 rounded-4xl overflow-hidden shadow-lg">
              <iframe
-                className="w-full h-70 lg:h-96"
+                className="w-full h-full"
                 // style="border:0"
                 loading="lazy"
                 // allowFullscreen
