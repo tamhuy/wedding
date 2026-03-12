@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import banner from '../assets/banner_v3.png';
+import banner from '../assets/banner_v3.avif';
 
 export function Banner() {
   const { t } = useTranslation();

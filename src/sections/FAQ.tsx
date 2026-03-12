@@ -41,7 +41,8 @@ export default function FAQ() {
                 </div>
                 <div className="flex justify-center md:flex-shrink-0 items-center">
                     <video className="rounded-lg w-96" width="350" height="240" autoPlay loop muted>
-                        <source src="/assets/video.mp4" type="video/mp4" />
+                        <source src="/assets/video.webm" type="video/webm" />
+                        <source src="/assets/video-optimized.mp4" type="video/mp4" />
                     </video>
                 </div>
             </div>

@@ -14,7 +14,7 @@ import ImageCarousel from './components/ImageCarousel'
 function App() {
 
   return (
-    <div className="bg-[url('/assets/waves.png')] bg-size-[125%_auto] bg-repeat min-h-screen relative">
+    <div className="bg-[url('/assets/waves.avif')] bg-size-[125%_auto] bg-repeat min-h-screen relative">
       {/* Overlay with primary color at 70% opacity */}
       {/* <div className="absolute inset-0 bg-primary opacity-80 pointer-events-none" /> */}
       
