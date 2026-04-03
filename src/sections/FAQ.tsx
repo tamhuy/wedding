@@ -28,7 +28,13 @@ export default function FAQ() {
                 <div>
                     <FaqSubSection title={t("practicalInfo.dressCode")} text={t("practicalInfo.dressCodeSub")} />
                     <FaqSubSection title={t("practicalInfo.childFree")} text={t("practicalInfo.childFreeSub")} />
-                    <FaqSubSection title={t("practicalInfo.accommodation")} text={t("practicalInfo.accommodationSub")} />
+                    <div className="my-6">
+                        <div>
+                            <h3>{t("practicalInfo.accommodation")}</h3>
+                            <p className="whitespace-pre-line">{t("practicalInfo.accommodationSub")} <a className="underline" href="https://www.booking.com/mywishlist.html?wl=3d7ee7e69bb54ec390a782a33e0d149e&aid=1607597" > {t("practicalInfo.accommodationSub2")}</a>.</p>
+                        </div>
+                    </div>
+
                     <div className="my-6">
                         <div>
                             <h3>{t("practicalInfo.transportation")}</h3>

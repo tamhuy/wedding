@@ -51,7 +51,8 @@
   "practicalInfo": {
     "title": "PRAKTISK INFORMASJON",
     "accommodation": "Overnatting",
-    "accommodationSub": "For gjester som reiser langveisfra anbefaler vi å booke overnatting i Oslo sentrum. Her finnes det et bredt utvalg av hoteller og god tilgang til kollektivtransport, noe som gjør det enkelt å reise til og fra feiringen.",
+    "accommodationSub": "For gjester som reiser langveisfra anbefaler vi å booke overnatting i Oslo sentrum. Her finnes det et bredt utvalg av hoteller og god tilgang til kollektivtransport, noe som gjør det enkelt å reise til og fra feiringen. For å gjøre det enklere har vi samlet et utvalg anbefalte hoteller her: ",
+		"accommodationSub2": "Hoteller",    
     "transportation": "Transport og parkering",
     "transportationSub": "Stedet er lett å nå med kollektivtransport, ca. 20 minutter fra sentrum. Ruter og reisealternativer finner du via ",
     "transportationSub2": ". For deg som kommer med bil, er det parkering tilgjengelig på stedet.",
